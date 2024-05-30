@@ -8,7 +8,6 @@ for (var i = 0; i< chl.length; i++){
         disqualiied.push(club)
     }
 }
- 
 
 //DECCLARATIVE
 chl.filter((club)=>{

@@ -75,3 +75,16 @@ root.right.left = new TreeNode(6);
 root.right.right = new TreeNode(7);
 
 myTree.levelOrderTraversal(root);
+
+
+/* let values:number[] = []
+if (!root) return
+let currNode = root ?? null
+while(currNode){
+if(currNode.left){
+    currNode = currNode.left
+    if(!currNode.left){
+    values.push(currNode.right.val)
+    }
+}
+} */

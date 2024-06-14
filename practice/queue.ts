@@ -19,7 +19,7 @@ class Queue<T>{
     }
     size(){
        return this.data.length
-    }//skskksksks
+    }
 
 }
 
